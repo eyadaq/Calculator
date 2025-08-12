@@ -24,9 +24,14 @@ body{
 }
 
 .buttons{
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 510px;
+    margin-bottom: 20px;
+	gap: 5px
+	;
+    flex: 1;
 }
 
 .result{
@@ -61,22 +66,40 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-items: center;
+	gap: 5px;
 }
 
 .btn-num{
 	background-color: #CECECE;
-	flex-grow: 1;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: larger;
+	font-weight: bolder;
 }
 
-
+.btn-eql,
 .btn-op{
 	background-color: #929292;
-	flex-grow: 1;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: larger;
+	font-weight: bolder;
 }
 
 
 .btn-eql{
 	background-color: #FF9C00;
-	flex-grow: 2;
 }
