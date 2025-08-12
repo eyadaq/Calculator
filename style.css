@@ -29,8 +29,7 @@ body{
     justify-content: space-between;
     width: 510px;
     margin-bottom: 20px;
-	gap: 5px
-	;
+	gap: 15px;
     flex: 1;
 }
 
@@ -67,7 +66,7 @@ body{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	gap: 5px;
+	gap: 15px;
 }
 
 .btn-num{
