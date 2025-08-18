@@ -9,32 +9,31 @@
 <body>
 	<div class="title">Calculator</div>
 	<div class="card">
-		<div class="result">0</div>
+		<div class="result"></div>
 		<div class="buttons">
 			<div class="col-1">
-				<div class="btn-op">x</div>
-				<div class="btn-num">7</div>
-				<div class="btn-num">4</div>
-				<div class="btn-num">1</div>
+				<div class="btn-op"        onclick="handleOperation('*')">x</div>
+				<div class="btn-num"       onclick="handleInput('7')">7</div>
+				<div class="btn-num"       onclick="handleInput('4')">4</div>
+				<div class="btn-num"       onclick="handleInput('1')">1</div>
 			</div>
 			<div class="col-2">
-				<div class="btn-op">/</div>
-				<div class="btn-num">8</div>
-				<div class="btn-num">5</div>
-				<div class="btn-num">2</div>
-				
+				<div class="btn-op"        onclick="handleOperation('/')">/</div>
+				<div class="btn-num"       onclick="handleInput('8')">8</div>
+				<div class="btn-num"       onclick="handleInput('5')">5</div>
+				<div class="btn-num"       onclick="handleInput('2')">2</div>
 			</div>
 			<div class="col-3">
-				<div class="btn-op">+</div>
-				<div class="btn-num">9</div>
-				<div class="btn-num">6</div>
-				<div class="btn-num">3</div>
+				<div class="btn-op"        onclick="handleOperation('+')">+</div>
+				<div class="btn-num"       onclick="handleInput('9')">9</div>
+				<div class="btn-num"       onclick="handleInput('6')">6</div>
+				<div class="btn-num" 	   onclick="handleInput('3')">3</div>
 			</div>
 			<div class="col-4">
-				<div class="btn-op">-</div>
-				<div class="btn-op">C</div>
-				<div class="btn-eql">=</div>
-				<div class="btn-0 btn-num">0</div>
+				<div class="btn-op"  	   onclick="handleOperation('-')">-</div>
+				<div class="btn-op"  	   onclick="clearCalculator()">C</div>
+				<div class="btn-eql"       onclick="calculate()">=</div>
+				<div class="btn-0 btn-num" onclick="handleInput('0')">0</div>
 			</div>
 		</div>
 	</div>
